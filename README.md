@@ -13,7 +13,7 @@ The original Airbnb database was sourced from http://insideairbnb.com/.
 You can find information on how Murray Cox came to the conclusion on occpuancy rates here: http://insideairbnb.com/about.html#disclaimers
 Actual occupancy data was scraped from Airbnb's calender API.
 
-## *How review-based occupancy rates are calculated:*
+## *How review-based occupancy rates are calculated:*
 - A review rate of 50% is used to convert reviews to estimated bookings.
 
 - An average length of stay is configured for each city, and this, multiplied by the estimated bookings for each listing over a period, gives the occupancy rate.
