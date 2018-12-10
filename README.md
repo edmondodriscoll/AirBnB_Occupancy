@@ -1,6 +1,6 @@
-Airbnb Occupancy Rates 
+# Airbnb Occupancy Rates 
 
-*How many bookings can I hope to get in a month?* 
+## *How many bookings can I hope to get in a month?* 
 
 This is a a question asked by both homeowners looking to make additional income and governments curious about how short term letting affects prices in the hotel industry. 
 
@@ -13,7 +13,7 @@ The original Airbnb database was sourced from http://insideairbnb.com/.
 You can find information on how Murray Cox came to the conclusion on occpuancy rates here: http://insideairbnb.com/about.html#disclaimers
 Actual occupancy data was scraped from Airbnb's calender API.
 
-*How review-based occupancy rates are calculated:*
+## *How review-based occupancy rates are calculated:*
 - A review rate of 50% is used to convert reviews to estimated bookings.
 
 - An average length of stay is configured for each city, and this, multiplied by the estimated bookings for each listing over a period, gives the occupancy rate.
@@ -26,7 +26,7 @@ Actual occupancy data was scraped from Airbnb's calender API.
 
 - They also say the max occupancy can only be 70% for the year.
 
-*My hypothesis:*
+## *My hypothesis:*
 Basing occupancy rates on yearly average of reviews is, I believe, a limited method. My hypothesis is to scrape data on listings that you can confidently say are either booked or available. You can find these listings by:
 - filtering by hosts that have 20+ rental properties under their name and
 - are willing to rent out the properties for more then 365 days in duration and
